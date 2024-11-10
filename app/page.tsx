@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from "../app/components/header"
+
 import Image from 'next/image'
 
 const Page = () => {
     return (
         <div>
-            <Header />
+
             <div className='flex h-[189%] mt-7'>
 
                 <div className='flex flex-col items-start m-16 justify-center w-[496px] top-316px left-176px space-y-3'>
@@ -35,16 +35,16 @@ const Page = () => {
 
 
                 <div className='flex justify-center items-center'>
-<Image
+                    <Image
 
-src="pic.png"
-width={300}
-height={400}
-alt='img'
-children="slideIn-pic"
+                        src="pic.png"
+                        width={300}
+                        height={400}
+                        alt='img'
+                        children="slideIn-pic"
 
 
-/>
+                    />
 
 
 
